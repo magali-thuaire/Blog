@@ -1,4 +1,8 @@
-<li class="card list-group-item-default mb-2">
+<li class="card mb-2"
+	[ngClass]="{
+		'list-group-item-default': post.loveIts === 0,
+		'list-group-item-success': post.loveIts > 0,
+		'list-group-item-danger': post.loveIts < 0}">
 	<div class="card-header d-flex align-items-center justify-content-between">
 		<h2>{{ post.title }}</h2>
 		<h6 class="text-muted">{{ post.created_at | date: 'dd/MM/yyyy, hh:mm a' }}</h6>
