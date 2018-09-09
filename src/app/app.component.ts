@@ -20,13 +20,13 @@ export class AppComponent {
 		},
 		{
 			title: 'Article 2',
-			content: 'Je suis l\'article 1',
+			content: 'Je suis l\'article 2',
 			loveIts: 0,
 			created_at: this.date
 		},
 		{
 			title: 'Article 3',
-			content: 'Je suis l\'article 1',
+			content: 'Je suis l\'article 3',
 			loveIts: -5,
 			created_at: this.date
 		}
