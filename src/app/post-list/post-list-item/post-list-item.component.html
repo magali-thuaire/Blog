@@ -9,7 +9,7 @@
 	</div>
 	<div class="card-body">
 		<p class="card-text">{{ post.content }}</p>
-		<a class="btn btn-success text-white">Love it</a>
-		<a class="btn btn-danger text-white ml-2">Don't love it</a>
+		<a class="btn btn-success text-white" (click)="onLove()">Love it</a>
+		<a class="btn btn-danger text-white ml-2" (click)="onDontLove()">Don't love it</a>
 	</div>
 </li>

@@ -14,4 +14,14 @@ export class PostListItemComponent implements OnInit {
 	ngOnInit() {
 	}
 
+	// Fonction qui augmente le loveIts d'un article de 1
+	onLove() {
+		this.post.loveIts += 1;
+	}
+
+	// Fonction qui baisse le loveIts d'un article de 1
+	onDontLove() {
+		this.post.loveIts -= 1;
+	}
+
 }
